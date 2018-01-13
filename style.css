@@ -4,26 +4,15 @@ h2{
     
 }
 
-#name1{
-    
-    float: left;
-    color: mediumpurple;
-    font-family: cursive;
-    width: 480px;
-    border: 50px Dotted aqua;
-    margin: 50px;
-    margin-top: 0;
-    text-align: center;
-    font-size: 40;
-    
-    
-    
-}
+
 
 ul, p, h5{
     color: hotpink;
 }
 
+html, body{
+    overflow-x: hidden;
+}
 
 
 #marquee{
@@ -68,36 +57,37 @@ body{
 
 }
 
-#menu{
-   
+
+
+.menu {
     list-style-type: none;
+/*    margin: 0;*/
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
     overflow: hidden;
-    width: 105%;
-    margin-left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    
-    
-
-    
+    background-color: plum;
+/*    opacity: 0.9;*/
+    border-radius: 10px;
+   
+    border-style: double;
+	border: solid white;
 }
-
- li{
+ .menu li{
    
     color: white;
     text-decoration: none;
 
 }
 
- li a{
+ .menu li a{
     
     float: left;
     text-align: center; 
     display: block;
-    background-color: plum;
-    padding: 168px;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 14px 16px;
     color: black;
     text-decoration: none;
     font-size: 30px;
@@ -122,10 +112,11 @@ a:hover:not(.active) {
 
 #social{
     clear: both;
-    width: 100%;
-    padding: 40%;
+/*    width: 100%;*/
+/*
     padding-bottom: 0%;
     padding-top: 0%;
+*/
     align-content: center;
     position: relative;
     top: -30px;
@@ -169,9 +160,9 @@ a:hover:not(.active) {
 
 
 #about{
-    margin: 5%;
-    width: 100%;
+
     text-align: center;
+    
 }
 
 #about h2{
@@ -256,16 +247,76 @@ container{
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
     .column {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
+        -ms-flex: 23%;
+        flex: 23%;
+        max-width: 23%;
     }
+    
+
+    
+    #image{
+        width: 90%;
+        
+    }
+    
+    
+    #pAboutMe{
+        margin-top: 10px;
+        clear: both;
+    }
+    
+    #social{
+    clear: both;
+    width: 25%;
+    padding: 40%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    }
+    
+    .fa{
+
+    padding: 5px;
+    width: 15%;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    
+    border-radius: 50%;
+    
 }
+    
+    
+    .menu li a{
+    
+    float: left;
+    text-align: center; 
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-right: 1px solid white;
+    
+   
+   
+    
+     }
+}   
+
 
 footer{
-    width: 100%;
+    width: 95%;
     clear: both;
     margin-top: 10%;
     margin-bottom: 5%;
     text-align: center;
+}
+
+container{
+    
+    box-sizing: border-box;
+}
 }
