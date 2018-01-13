@@ -1,0 +1,271 @@
+h2{
+    color: hotpink;
+    font-family: cursive
+    
+}
+
+#name1{
+    
+    float: left;
+    color: mediumpurple;
+    font-family: cursive;
+    width: 480px;
+    border: 50px Dotted aqua;
+    margin: 50px;
+    margin-top: 0;
+    text-align: center;
+    font-size: 40;
+    
+    
+    
+}
+
+ul, p, h5{
+    color: hotpink;
+}
+
+
+
+#marquee{
+    width: 100%;
+    border-color: aqua;
+    color: plum
+        
+}
+
+body{
+    margin: 0;
+    background-color: white;
+    
+}
+
+
+
+#image {
+    
+    float: left;
+    margin: 5%;
+    margin-top: 0;
+    width: 35%;
+}
+
+#mainimage{
+    align-content: center;
+    margin-left: 30%;;
+    margin-right: 30%;
+    width: 40%;
+}
+ 
+#pAboutMe{
+
+    float: left
+    width: 35%;
+    text-align: center;
+    margin: 5%;
+    font-size: 20px;
+    
+    
+
+}
+
+#menu{
+   
+    list-style-type: none;
+    overflow: hidden;
+    width: 105%;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    
+    
+
+    
+}
+
+ li{
+   
+    color: white;
+    text-decoration: none;
+
+}
+
+ li a{
+    
+    float: left;
+    text-align: center; 
+    display: block;
+    background-color: plum;
+    padding: 168px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    border-right: 1px solid white;
+    
+   
+   
+    
+}
+
+li a.active{
+    background-color: hotpink;
+    color: white;
+}
+
+
+
+a:hover:not(.active) {
+    background-color: #dd99ff;
+    color: white;
+}
+
+#social{
+    clear: both;
+    width: 100%;
+    padding: 40%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    align-content: center;
+    position: relative;
+    top: -30px;
+    
+    
+}
+
+.fa{
+
+    padding: 20px;
+    font-size: 40px;
+    width: 2%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    
+    border-radius: 50%;
+    
+}
+
+.fa :hover{
+    opacity: 0.9;
+}
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin{
+   background: #007bb5;
+   color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+
+#about{
+    margin: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+#about h2{
+    text-align: center;
+}
+
+#about h5{
+    color: plum;
+}
+
+#about ul li {
+    
+     list-style-type: none;
+      color: plum;
+      
+}
+
+
+#content{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.row{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 0 
+}
+
+
+.images{
+    float: left;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.images img{
+    float: left;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 24%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+container{
+    box-sizing: border-box
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+footer{
+    width: 100%;
+    clear: both;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+}
