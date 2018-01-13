@@ -132,7 +132,6 @@ a:hover:not(.active) {
     text-align: center;
     text-decoration: none;
     margin: 5px 5px;
-    
     border-radius: 50%;
     
 }
@@ -280,7 +279,7 @@ a:hover:not(.active) {
     }
     
     .fa{
-
+    font-size: 20;
     padding: 5px;
     width: 15%;
     text-align: center;
